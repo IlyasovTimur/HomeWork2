@@ -5,7 +5,7 @@ System.out.println("Задача 1");
 
         var dog = 8.0;
         var cat = 3.6;
-        var paper = 763789;
+        var paper = 763_789;
 
         System.out.println("значение переменной dog " + dog);
         System.out.println("значение переменной cat " + cat);
@@ -14,8 +14,8 @@ System.out.println("Задача 1");
         //Задача 2.
         System.out.println("Задача 2");
 
-        dog = dog + 4;
-        cat = cat + 4;
+        dog += 4; //закрепляю фишки Java
+        cat += 4;
         paper = paper + 4;
 
         System.out.println("значение переменной dog " + dog);
@@ -27,15 +27,14 @@ System.out.println("Задача 1");
 
         dog = dog - 3.5;
         cat = cat - 1.6;
-        paper = paper - 7639;
+        paper -= 7_639; //закрепляю фишки java
 
         System.out.println("значение переменной dog " + dog);
         System.out.println("значение переменной cat " + cat);
         System.out.println("значение переменной paper " + paper);
 
-       //Задача 4.
+        //задача 4.
             System.out.println("Задача 4");
-
             var friend = 19;
             System.out.println("значение переменной friend " + friend);
             friend = friend + 2;
@@ -45,7 +44,6 @@ System.out.println("Задача 1");
 
             //Задача 5.
             System.out.println("Задача 5");
-
             var frog = 3.5;
             System.out.println("значение переменной frog " + frog);
             frog = frog * 10;
@@ -57,13 +55,12 @@ System.out.println("Задача 1");
 
             //Задача 6.
             System.out.println("Задача 6");
-
             var boxerOne = 78.2;
             var boxerTwo = 82.7;
             var totalWeight = boxerOne + boxerTwo;
             System.out.println("Общий вес двух бойцов = " + totalWeight + "кг");
             var weightDifference = boxerTwo - boxerOne;
-            System.out.println("Разница в весе бойцов =" + weightDifference + "кг");
+            System.out.println("Разница в весе бойцов = " + weightDifference + "кг");
 
             //задача 7.
             System.out.println("Задача 7");
