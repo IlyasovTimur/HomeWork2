@@ -77,7 +77,9 @@ System.out.println("Задача 1");
             var moreWorkers = totalWorkers + 94; //Увеличили количество сотрудников.
             var remainingTime = totalHours % moreWorkers; //Остаток от деления на цело, количество не задействованного времени.
             var timeWorkers = totalHours - remainingTime; //Время, которое может быть поделено между всеми сотрудниками.
+        var overTime = moreWorkers * 8;
             System.out.println("Если в компании работает " + moreWorkers + " человека, то всего " + timeWorkers + " часа работы может быть поделено между сотрудниками.");
+        System.out.println("Если в компании работает " + moreWorkers + " человека и каждый посвятит работе 8 часов, то всего " + overTime + " часа работы может быть поделено между сотрудниками.");
 
 
 
